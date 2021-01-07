@@ -1,0 +1,141 @@
+
+/* footer section */
+
+.footer__section {
+    background-color: #000000;
+    height: 60vh;
+    padding-top: 40px;
+  
+  }
+  
+  .footer_logo_details {
+    margin: 30px auto;
+    width: fit-content;
+  }
+  
+  .footer__link {
+    /* margin: 80px auto; */
+    /* color: #fff; */
+  }
+  
+  .footer__image {
+    height: 70px;
+    width: 80px;
+  }
+  
+  .footer__desc {
+    color: #fff;
+    font-size: 38px;
+    text-transform: uppercase;
+    /* vertical-align: middle; */
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 7px;
+    padding-left: 20px;
+  }
+  
+  .customer__services {
+    width: fit-content;
+    margin: 20px auto;
+  }
+  /* 
+  .customer__services > span {
+    padding-left: 15px;
+    padding-right: 15px;
+  } */
+  /* 
+  .customer__services__br__Spans {
+    border-right: 2px solid #fff;
+  } */
+  
+  .cr__services__links {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 2px solid #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .cr__services__links:hover {
+    color: gray;
+  } 
+  
+  .socialMedia__icons {
+    width: fit-content;
+    margin: 20px auto;
+  }
+  
+  .sm__icons {
+    height: 35px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50%;
+  }
+  
+  .sm__icons:hover {
+    background-color: red;
+  }
+  
+  .copyrights {
+    
+    /* bottom: 10px; */
+  width: fit-content;
+  margin: 0px auto;
+  margin-top: 130px;
+  }
+  
+  @media (max-width: 994px) {
+
+.footer__section {
+  padding-top: 25px;
+}
+
+.footer_logo_details {
+  margin: 20px auto;
+  width: fit-content;
+}
+
+
+.footer__image {
+  height: 45px;
+  width: 55px;
+}
+
+
+.footer__desc {
+  font-size: 23px;
+  padding-top: 7px;
+  padding-left: 10px;
+}
+
+
+.customer__services {
+  width: fit-content;
+  margin: 13px auto;
+  text-align: center;
+}
+
+
+.cr__services__links {
+  color: #fff;
+  font-size: 13px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+.socialMedia__icons {
+  margin: 15px auto;
+}
+
+
+.sm__icons {
+  height: 30px;
+  width: 35px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+
+  }

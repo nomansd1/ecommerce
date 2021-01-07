@@ -1,0 +1,31 @@
+compiled by: Syed Noman Ali
+
+These are the following steps required to host and deploy your react app on firebase
+just make sure you are in your project directory/folder
+
+step 1// run this command 
+ firebase init
+
+step 2//
+then select hosting option
+
+step 3//
+select use an existing project
+
+step 4//
+select your project
+
+step 5//
+then type 
+build
+
+step 6//
+then select yes
+
+step 7//
+then run this command 
+npm run build 
+
+step 8//
+run this command to deploy then 
+firebase deploy

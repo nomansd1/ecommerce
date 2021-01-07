@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'helvetica-neue';
+    src: local('helvetica-neue') , url(fonts/Helvetica\ Neu\ Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'helvetica-neue-md';
+    src: local('helvetica-neue-md') , url(fonts/HelveticaNeue\ Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'helvetica-neue-lg';
+    src: local('helvetica-neue-lg') , url(fonts/HelveticaNeue\ Light.ttf) format('truetype');
+}
+
+
+
+
+.container-fluid {
+    background-color: #000000 !important;
+}
+
+.navbar {
+    background-color: #000000 !important;
+}
+
+.navbar__brand__img {
+    display: flex;
+    flex-direction: row;
+    width: 45px;
+    height: 45px;
+    margin-left:150px;
+    margin-top: -5px;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    margin-left: 12px;
+    font-family:helvetica-neue;
+    font-weight: 2000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    padding: 0px 10px !important;
+    font-family: helvetica-neue-md;
+    text-transform: capitalize;
+    font-size: 13px !important;
+}
+
+.nav-link:hover {
+    color: gray !important;
+    transition: 1s;
+}
+
+.nav-link:not(:hover) {
+    transition: 1s;
+}
+
+.header__icons {
+    margin-right: 150px !important;
+    flex-direction: row;
+    display: flex;
+}
+
+.icons {
+    color: #ffffff;
+}
+
+.nav-item {
+    position: relative !important;
+}
+
+.nav-item:after {
+    content: '';
+    height: 3px !important;
+    width: 0 !important;
+    background-color: red !important;
+    position: absolute !important;
+    left: 0 !important;
+    bottom: -3px !important;
+    transition: 1s !important;
+}
+
+.nav-item:hover:after {
+    width: 100% !important;
+}
+
+
+@media screen and (max-width:991px) {
+
+.cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__brand__img {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px !important;
+    height: 35px;
+    width: 35px;
+    margin-top: -4px;
+}
+
+.navbar-brand {
+/* margin: 0px auto !important; */
+padding: 0px !important;
+margin-left: 10px !important;
+font-size: 17px;
+margin-top: 3px;
+}
+.navbar {
+    justify-content: unset !important;
+}
+
+
+.navbar-toggler {
+    color: #ffffff !important;
+    border-color: #000000 !important;
+}
+
+
+.navbar-nav{
+    margin: 30px auto !important;
+}
+
+.nav-item {
+padding: 3px 0 !important;
+text-align: center;
+}
+
+.header__icons {
+    margin-right: 10px !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+
+}

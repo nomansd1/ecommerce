@@ -1,0 +1,15 @@
+.cart__banner {
+    background-image: url("photos/header_bg_shop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    margin-top: 40px;
+}
+
+/* //checkout product styling */
+
+.product__name {
+    text-decoration: none;
+    color: #000000;
+}
